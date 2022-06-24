@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Quicksand:wght@300&display=swap');
+
+body {
+    background-color: #F29829;
+}
+
+.container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ronaldo {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 8%;
+    background-color: #59080F;
+    z-index: 1;
+}
+
+aside {
+    position: absolute;
+    top: 9%;
+    left: 1%;
+    width: 15%;
+    height: 100%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+nav {
+    position: absolute;
+    top: 9%;
+    right: 1%;
+    width: 15%;
+    height: 100%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+section {
+    position: absolute;
+    top: 9%;
+    left: 17%;
+    width: 66%;
+    height: 130%;
+    background-color: white;
+    border-radius: 15px;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20pt;
+    text-align: center;
+}
+
+a {
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.ronaldinho {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25pt;
+    margin: 0;
+    margin-left: 1%;
+    color: white;
+    z-index: 2;
+
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    border-radius: 15px;
+
+}
+
+.robinho,
+.neymar {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15pt;
+    margin: 0;
+    margin-left: 1%;
+    text-align: center;
+    margin: 5px;
+}
+
+.neymar {
+    border-bottom: solid #333333;
+}
+
+.rodape {
+    position: absolute;
+    bottom: -50%;
+    left: 0%;
+    width: 100%;
+    height: 8%;
+    background-color: #59080F;
+
+}
+.rodape:hover{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    height: 8%;
+    animation-delay: 0s;
+}
